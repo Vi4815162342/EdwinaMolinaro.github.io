@@ -1,0 +1,50 @@
+.presentation{
+  text-align: center;
+  font-size: 25px;
+  font-family: cursive;
+  padding: 50px;
+}
+
+.name_pro{
+  text-align: center;
+  font-size: 16px;
+  font-family: monospace;
+}
+
+.skills{
+  font-size: 15px;
+  font-family: monospace;
+}
+
+.container_first{
+  text-align: center;
+  padding-left: 200px;
+  font-size: 15px;
+  font-family: monospace;
+}
+
+.container{
+  border-bottom: solid;
+}
+
+.container_1{
+  padding-left: 50%;
+}
+
+.container_2{
+  padding: 20px;
+  font-size: 15px;
+  font-family: cursive;
+}
+
+.container_3{
+  text-align: right;
+  padding-bottom: 50px;
+  font-size: 15px;
+  font-family: monospace;
+}
+
+.diplome{
+  font-size: 14px;
+  font-family: cursive;
+}
