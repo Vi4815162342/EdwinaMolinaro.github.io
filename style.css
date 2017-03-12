@@ -1,8 +1,22 @@
+.html, body{
+  margin:0;
+  padding: 0;
+  background: url(background.jpg) no-repeat scroll 0 0 / cover;
+  background-size: cover;
+  position: relative;
+  height: 100%;
+  background-position: center center;
+}
+
 .presentation{
   text-align: center;
-  font-size: 25px;
+  font-size: 30px;
   font-family: cursive;
   padding: 50px;
+}
+
+.header{
+padding: -25px;
 }
 
 .name_pro{
@@ -12,8 +26,12 @@
 }
 
 .skills{
-  font-size: 15px;
-  font-family: monospace;
+  padding: 15px;
+  font-size: 12px;
+  text-transform: uppercase;
+  font-weight: 700;
+  letter-spacing: 10px;
+
 }
 
 .container_first{
@@ -24,17 +42,23 @@
 }
 
 .container{
-  border-bottom: solid;
+
 }
 
 .container_1{
+  padding: 50px;
   padding-left: 50%;
+  text-transform: uppercase;
+  font-weight: 700;
+  letter-spacing: 10px;
+
 }
 
 .container_2{
-  padding: 20px;
+  padding: 15px;
   font-size: 15px;
   font-family: cursive;
+  text-shadow: 0 0 2px white;
 }
 
 .container_3{
@@ -42,9 +66,15 @@
   padding-bottom: 50px;
   font-size: 15px;
   font-family: monospace;
+  width: 300px;
+  height: 100px;
+  padding: 15px;
+  border-right: solid 2px;
+  text-decoration: none;
 }
 
 .diplome{
   font-size: 14px;
   font-family: cursive;
+  text-shadow: 0 0 2px white;
 }
